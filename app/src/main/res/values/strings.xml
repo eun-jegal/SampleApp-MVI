@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SampleApp-MVI</string>
+    <string name="btn_text_update_data">Update Data</string>
+</resources>
