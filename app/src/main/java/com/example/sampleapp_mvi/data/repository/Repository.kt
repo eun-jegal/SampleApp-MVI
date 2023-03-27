@@ -1,7 +1,7 @@
 package com.example.sampleapp_mvi.data.repository
 
-import com.example.sampleapp_mvi.data.model.UserItem
+import com.example.sampleapp_mvi.data.model.Users
 
 interface Repository {
-    suspend fun getUsers(): List<UserItem>
+    suspend fun getUsers(): Users
 }
