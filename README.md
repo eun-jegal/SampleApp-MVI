@@ -42,14 +42,24 @@ This sample app demonstrates the modern Android architecture pattern - MVI(Model
       <li>Unidirectional Data Flow</li>
    </ul>
 </ul>
+<br>
+
+<h3>What is MVI pattern?</h3>
+<p>MVI stands for Model-View-Intent. Without using boilerplate callback functions, we can build the app reactive to user interactions. The main idea of this pattern is that View and Model communicates via "Intent" and "State".</p>
 <p align="center">
    <img src="https://user-images.githubusercontent.com/57670625/227793219-0372bcbc-107d-4e27-b2cf-d38f7d3bf5fc.jpg" width="85%"/>
 </p>
+<li><b>Model</b>: Model is the single source of the truth, which manages the states of the app.</li>
+<li><b>View</b>: View represents UI layer including activity and fragments. View displays user interfaces and produces action and renders the state emitted by Model.</li>
+<li><b>Intent</b>: This is not an Android traditional Intent. Intent is a performed action by user side of the app itself.</li>
+<br>
 
 <h3>MVI flow representation</h3>
 <p align="center">
    <img src="https://user-images.githubusercontent.com/57670625/227793218-f39f6f9a-29d0-4596-9d28-ec79025f7bec.jpg" width="85%"/>
 </p>
+<p>This is the cyclical flow of MVI pattern. View defines an intent from an user interaction and delivers it to Model. Model defines a state following by the user interaction and notifiew View to update UIs to display the result of the user interaction.</p>
+<br>
 
 <!-- References -->
 <h2>References</h2>
