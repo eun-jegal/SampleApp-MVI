@@ -28,6 +28,7 @@ This sample app demonstrates the modern Android architecture pattern - MVI(Model
 <li><a href="https://square.github.io/okhttp/">OkHttp</a> : 3rd party library sending and receive HTTP-based network requests built on top of the Okio library</li>
 <li><a href="https://github.com/google/gson">GSON</a>: Java library that can be used to convert Java Objects into their JSON representation</li>
 <li><a href="https://github.com/bumptech/glide">Glide</a>: Fast and efficient open source media management and image loading framework </li>
+</ul>
 <br>
 
 <!-- Architecture -->
@@ -49,9 +50,11 @@ This sample app demonstrates the modern Android architecture pattern - MVI(Model
 <p align="center">
    <img src="https://user-images.githubusercontent.com/57670625/227793219-0372bcbc-107d-4e27-b2cf-d38f7d3bf5fc.jpg" width="85%"/>
 </p>
+<ul>
 <li><b>Model</b>: Model is the single source of the truth, which manages the states of the app.</li>
 <li><b>View</b>: View represents UI layer including activity and fragments. View displays user interfaces and produces action and renders the state emitted by Model.</li>
 <li><b>Intent</b>: This is not an Android traditional Intent. Intent is a performed action by user side of the app itself.</li>
+</ul>
 <br>
 
 <h3>MVI flow representation</h3>
