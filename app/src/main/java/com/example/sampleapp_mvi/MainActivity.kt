@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
     private fun initLayout() {
         binding.apply {
             btnUpdateData.setOnClickListener {
+                // Send intent to viewModel
                 viewModel.sendIntent(MainIntent.FetchUser)
             }
             recyclerView.apply {

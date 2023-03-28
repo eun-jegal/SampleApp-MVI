@@ -33,10 +33,7 @@ class NetModule {
     @Singleton
     @Provides
     fun provideOkHttpClient(): OkHttpClient {
-        return OkHttpClient().newBuilder().addInterceptor(
-            HttpLoggingInterceptor().setLevel(
-                HttpLoggingInterceptor.Level.BASIC
-            )
-        ).build()
+        return OkHttpClient().newBuilder()
+            .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BASIC)).build()
     }
 }
