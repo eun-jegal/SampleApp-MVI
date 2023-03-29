@@ -1,11 +1,7 @@
 <h1>MVI Sample App</h1>
 <p>
-This sample app demonstrates the modern Android architecture pattern - MVI(Model, View, Intent) using LiveData, Coroutines and Retrofit.
+This sample app demonstrates the modern Android architecture pattern - MVI(Model, View, Intent) using LiveData, Coroutines and Retrofit. When the user presses the button on the main screen, the app requests for user datas and displays them in a recyclerView.
 </p>
-<br>
-
-<!-- Screenshots -->
-<h2>Screenshots</h2>
 <p align="center">
   <img src="https://user-images.githubusercontent.com/57670625/227792457-50104c7b-b626-4e62-9769-26c3875040a3.gif" width="23%"/>
 </p>
