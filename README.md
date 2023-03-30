@@ -48,12 +48,23 @@ This sample app demonstrates the modern Android architecture pattern - MVI(Model
 
 <!-- App Architecture -->
 <h2>App Architecture</h2>
+<p>This sample app was built with the modern app architecture - MVI pattern. MVI has the same structure with MVVM pattern. By separating multiple app components into two layers
+- UI and Data, the app is scalable, maintainable and testable.</p>
+<ul>
+  <li>Architectural Principles</li>
+    <ul>
+      <li>Separations of concerns</li>
+      <li>Drive UI from data models</li>
+      <li>Single source of truth</li>
+      <li>Unidirectional Data Flow</li>
+   </ul>
+</ul>
 <p align="center">
    <img src="https://user-images.githubusercontent.com/57670625/228396945-a6f69b5d-730a-4ce4-b1b3-bd4f24124070.jpg" width="85%"/>
 </p>
 <h3>How MVI works in this app</h3>
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/57670625/228396943-0b57c75d-dbdc-4a69-aff7-06acd19870d7.jpg" width="40%"/>
+   <img src="https://user-images.githubusercontent.com/57670625/228396943-0b57c75d-dbdc-4a69-aff7-06acd19870d7.jpg" width="55%"/>
 </p>
 
 <!-- References -->
