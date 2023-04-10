@@ -40,9 +40,9 @@ This sample app demonstrates the modern Android architecture pattern - MVI(Model
 </ul>
 <br>
 
-<h3>MVI flow representation</h3>
+<h3>MVI flow diagram</h3>
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/57670625/227793218-f39f6f9a-29d0-4596-9d28-ec79025f7bec.jpg" width="85%"/>
+   <img src="https://user-images.githubusercontent.com/57670625/230803371-473163cf-6c5b-4796-a5d4-3683b4bd5acb.jpg" width="65%"/>
 </p>
 <p>This is the cyclical flow of MVI pattern. View defines an intent from an user interaction and delivers it to Model. Model defines a state following by the user interaction and notifiew View to update UIs to display the result of the user interaction.</p>
 
@@ -66,7 +66,7 @@ This sample app demonstrates the modern Android architecture pattern - MVI(Model
 <p>The below diagram presents how the app responds according to an user interaction.</p>
 
 <p align="center">
-   <img src="https://user-images.githubusercontent.com/57670625/228396943-0b57c75d-dbdc-4a69-aff7-06acd19870d7.jpg" width="55%"/>
+   <img src="https://user-images.githubusercontent.com/57670625/230802837-9230fa69-6e3d-428a-8fe7-2d836d9bad1d.jpg" width="50%"/>
 </p>
 
 <p>1. The user clicks on the "Update data" button on the main screen. Then, View delivers "Intent(User action)" to ViewModel.</p>
